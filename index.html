@@ -1,39 +1,71 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title> Table </title>
+<html> <head> <title> Portfolio </title> 
     <style>
-body{background-repeat:repeat-y; color:white; font-size: 30px; border-color: red; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-image: url("https://i.pinimg.com/originals/49/73/5b/49735b38c27ca67787e201a8f4b0fd6d.jpg")}
-    </style>
+        *{line-height: 3vh; text-transform:none; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}   
+        #abc{background-color:rgb(109, 201, 201); height: 600px; color:white;}
+        #def{background-color:rgb(230, 162, 204); height: 600px;color:white;}
+        </style>
+        </head>
 
-</head>
+<body> 
+    <header> Welcome to My Portfolio </h1>
+<a href=""> <button> ABOUT </button></a>
+<a href=""> <button> SKILLS </button> </a>
+<a href=""> <button> PROJECTS </button> </a> 
+<a href=""> <button> CONTACT </button> </a><br></header>
 
-<body>
-    <p style="text-transform: capitalize;"> the below is an example of table</p>
-    <p> the below is an example of table</p>
-    <p> the below is an example of table</p>
-    <p> the below is an example of table</p>
-    <table border="1">
+<main>
+    <section id="abc"> <br> <h3> GRANDHI PAVAN KALYAN </h3>
+        <img src="DSC_0208.jpg" height=300 width= 225 border=1>
+        <p> I am passionate to become web developer </p>
+        <p> I am currently pursuing Bachelor of Commers <br> with Computer Applications in Distance Education</p>
+        <p> I have learnt Computer Basics <br/> from my previous work experience</p>
+        <p> You can <b>Click here</b> to Checkout my work experience details </p>
+    </section>
+    
+    <section id="def"> <h1> MY SIKLLS </h1>
+        <ol>
+        <li> MS Word </li>
+        <li> MS Excel </li>
+        <li> MS Power Point </li>
+        <li> Typing </li></ol>
+    </section>
+
+    <section id="abc">
+        <h1> MY PROJECTS </h1>
+        <table border="1">
         <tr>
-            <th > S.No. </th>
-            <th > Name </th>
-            <th > Village</th>
+        <th> Project</th>
+        <th> Description</th>
         </tr>
-        <tr > 
-            <td> 1 </td>
-            <td> Pavan </td>
-            <td> Vijayawada </td>
-        </tr>
-        <tr> 
-            <td> 2 </td>
-            <td> Kalyan </td>
-            <td> Amalapuram </td>
-        </tr>
-        <tr> 
-            <td> 3 </td>
-            <td> Grandhi </td>
-            <td> Dippakayalapadu </td>
-        </tr>
-    </table>
-</body>
+        <tr> <td> MATLAB </td>
+        <td> I have built some designs by using MATLAB in my College while I'm studying Diploma 'EEE'</td>
+        <tr> <td> LDR </td>
+        <td> I have made a project with Light Dependent Resistor in my College in the above same study </td></tr>
+        </table>
+    </section>
+    <section id="def"> CONTACT ME</h1> 
+        <form> <label for="name"> <b> Name:</b> </label>
+        <input type="name" id="name" placeholder="Enter your Name"> <br> <br>
+        <label for="email"> <b>Email: </b></label>
+        <input type="email" id="email" placeholder="Enter your Email Id"> <br> <br>
+        <b> Gender: </b>
+        <label for="male"> Male </label>
+        <input type="radio" id="male" value="Male">
+        <label for="female"> Female </label>
+        <input type="radio" id="female" value="Female"> <br><br>
+        <b> Interests: </b>
+        <label for="Interests"> Coding </label>
+        <input type="checkbox" id="Coding" value="Coding">
+        <label for="Interests"> Testing </label>  
+        <input type="checkbox" id="Testing" value="Testing"><br><br>
+        <label for="bio"> Bio (upto 200 characters) </label>
+        <input type="textarea" id="bio" placeholder="Enter your Biography"> <br><br>
+        <button type="submit"> Submit </button>
+        </form>
+    </section>
+</main>
+<footer> <p> @ Myportfolio_PawankalyanG <br>
+Copyright: Pawankalyang14312</p>
+</footer></body>
 </html>
